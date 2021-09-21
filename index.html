@@ -2,60 +2,74 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>stylesheet css</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <title>"Portfolio Noah Diermyer"</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<head>
-  <title>"Portfolio Noah Diermyer"</title>
-</head>
-
 <body>
-  <nav>
-    <a>N.W.D</a>
-    <ul>
-      <li><a href="index.html">Work</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <header>
+    <div class="container">
+      <a href="index.html">
+        <picture>
+          <source srcset="img/logo.png" media="(max-width:200px)">
+          <img src="img/logo.png" alt="Logo" class="logo">
+        </picture>
+      </a>
+      <nav>
+        <ul class="navigation">
+          <nav>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </nav>
+  </header>
 
   <main>
     <div>
       <!-- open row that holds (2) columns for project -->
-      <div>
-        <!-- open first column (used for image) -->
-        <picture>
-          <img src="img/Project-1-jpeg.jpg" alt="project 1">
-        </picture>
-      </div><!-- end first column -->
-      <div>
-        <!-- open second column (used for text) -->
-        <h3>Review App</h3><!-- heading for the project -->
-        <p>
-          <!-- open paragraph -->
-          Need an app that lets you review and rate places you visit? This app is the perfect fit for you!
-        </p><!-- end paragraph -->
-        <p>
-          <!-- open paragraph -->
-          skills used in this project:Adobe XD and Invision
-        </p><!-- end paragraph -->
-        <a href="">Read more</a><!-- button or link label -->
-      </div><!-- end second column -->
-    </div><!-- end row that holds (2) columns for project -->
+      <div id="work">
+        <div class="container">
+          <div class="row">
+            <h1>
+              Hello, my name is Noah Diermyer. I'm a modern and up to date UI/UX designer who loves to learn. Being a Designer is my passion. I hope you enjoy my work.
+            </h1>
+
+            <div>
+              <!-- open first column (used for image) -->
+
+              <picture>
+                <source srcset="img/Project-1-jpeg.jpg" media="(max-width:800px)">
+                <img src="img/Project-1-jpeg.jpg" alt="Img">
+              </picture>
+
+
+            </div><!-- end first column -->
+            <div>
+              <!-- open second column (used for text) -->
+              <h3>Review App</h3><!-- heading for the project -->
+              <p>
+                <!-- open paragraph -->
+                Need an app that lets you review and rate places you visit? This app is the perfect fit for you!
+              </p><!-- end paragraph -->
+              <p>
+                <!-- open paragraph -->
+                skills used in this project:Adobe XD and Invision
+              </p><!-- end paragraph -->
+              <a href="">Read more</a><!-- button or link label -->
+            </div><!-- end second column -->
+          </div><!-- end row that holds (2) columns for project -->
   </main>
 
   <footer id="contact">
-    <h2>Get in Touch</h2>
-    <p>
-      like my work? Please get in touch. Call: (440) 281-5900. Would you like to send me an email?
-    </p>
-    <div>
-      <a href="">Email me</a>
-    </div>
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>
+        like my work? Please get in touch. Call: (440) 281-5900. Would you like to send me an email?
+      </p>
+      <div>
+        <a href="button">Email me</a>
+      </div>
   </footer>
 </body>
 

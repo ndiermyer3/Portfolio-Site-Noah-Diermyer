@@ -2,69 +2,104 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>stylesheet css</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <title>"Portfolio Noah Diermyer"</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<head>
-  <title>"About Me"</title>
-</head>
-
-
-
 <body>
-  <nav>
-    <a>N.W.D</a>
-    <ul>
-      <li><a href="index.html">Work</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <header>
+    <div class="container">
+      <a href="index.html">
+        <picture>
+          <source srcset="img/logo.png" media="(max-width:200px)">
+          <img src="img/logo.png" alt="Logo" class="logo">
+        </picture>
+      </a>
+      <nav>
+        <ul class="navigation">
+          <nav>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </nav>
+  </header>
 
   <main>
     <div>
-      <div>
-        <h1>About Me</h1>
-        <picture>
-          <img src="img/IMG_1216.jpeg" alt="Image">
-        </picture>
-      </div>
-      <div>
-        <h2>My story</h2>
-        <p>
-          Hello, my name is Noah Diermyer. I’m a UI/UX designer who mastered multiple designing tools. I’m a very passionate about designing and I always strive to get better. I believe there is always room for learning. I grew up being a three sport
-          athlete in Basketball, Baseball, and soccer. I’m very athletic and love to play sports. I feel the people who play sports build good mindsets to never stop pushing, learn from their mistakes, and to never stop working at getting better.
-        </p>
-        <h2>skills and Tools</h2>
-        <h3>Relavent Skills</h3>
-        <h3>Tools I use</h3>
-        <ul>
-          <li>Adobe XD</li>
-          <li>Sketch</li>
-          <li>Figma</li>
-          <li>Prototyping</li>
-          <li>Mock-ups</li>
-          <li>Wire-Framing</li>
-          <li>User Research</li>
-        </ul>
-        <a href="file:///Users/noahdiermyer/Desktop/Portfolio%20Site%20Noah%20Diermyer/Files/Noah%20Diermyer's%20Portfolio.pdf" Download>Download my resume</a>
-      </div>
-    </div>
+      <div class="container">
+        <div class="row">
+          <div>
+            <h1>About Me</h1>
+            <picture>
+              <img src="img/IMG_1216.jpeg" alt="Image">
+            </picture>
+          </div>
+          <div>
+            <h2>My story</h2>
+            <p>
+              Hello, my name is Noah Diermyer. I’m a UI/UX designer who mastered multiple designing tools. I’m a very passionate about designing and I always strive to get better. I believe there is always room for learning. I grew up being a three
+              sport
+              athlete in Basketball, Baseball, and soccer. I’m very athletic and love to play sports. I feel the people who play sports build good mindsets to never stop pushing, learn from their mistakes, and to never stop working at getting better.
+            </p>
+            <a href="file:///Users/noahdiermyer/Desktop/Portfolio%20Site%20Noah%20Diermyer/Files/Noah%20Diermyer's%20Portfolio.pdf" Download>Download my resume</a>
+          </div>
+        </div>
+        <div class="row">
+          <!-- start container to hold skills & tools -->
+          <h2>Skills & Tools</h2>
+          <div>
+            <!-- start container to hold skills & tools blocks -->
+            <div class="col-md-6">
+              <!-- start skills section -->
+              <h3>Relevant Skills</h3>
+              <ul>
+                <li>Wireframing/Prototyping</li>
+                <li>Branding</li>
+                <li>Visual Design</li>
+                <li>User Research</li>
+                <li>Usability Testing</li>
+                <li>Illustration</li>
+                <li>Graphic Design</li>
+                <li>Email Marketing</li>
+                <li>Social Media Management</li>
+                <li>HTML, CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div><!-- end relevant skills section -->
+            <div class="col-md-6">
+              <!-- start tools section -->
+              <h3>Tools I Use</h3>
+              <ul>
+                <li>Adobe XD</li>
+                <li>Figma</li>
+                <li>Sketch</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+              </ul>
+            </div> <!-- end tools section -->
+          </div><!-- end container to hold skills & tools blocks -->
+        </div><!-- end container to hold skills & tools -->
+      </div><!-- end container holding written content -->
+    </div><!-- end container holding all content -->
+    </div><!-- end about section content -->
   </main>
 
   <footer id="contact">
-    <h2>Get in Touch</h2>
-    <p>
-      like my work? Please get in touch. Call: (440) 281-5900. Would you like to send me an email?
-    </p>
-    <div>
-      <a href="">Email me</a>
-    </div>
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>
+        like my work? Please get in touch. Call: (440) 281-5900. Would you like to send me an email?
+      </p>
+      <div>
+        <a href="">Email me</a>
+      </div>
   </footer>
+
+
 </body>
 
 
