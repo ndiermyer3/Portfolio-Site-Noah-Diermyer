@@ -30,27 +30,33 @@
   <main>
     <div>
       <!-- open row that holds (2) columns for project -->
-      <div class="container">
+      <div id="hero" <div class="container" <div class="row">
+        <h1>
+          Hello, my name is Noah Diermyer.
+          <span>
+            I'm a modern and up to date UI/UX designer who loves to learn. Being a Designer is my passion. I hope you enjoy my work.
+          </span>
+        </h1>
+      </div>
+    </div>
+    </div>
+
+    <div id="work">
+      <div>
+        <h2>My work</h2>
         <div class="row">
-          <div id="hero">
-            <h1>
-              Hello, my name is Noah Diermyer. I'm a modern and up to date UI/UX designer who loves to learn. Being a Designer is my passion. I hope you enjoy my work.
-            </h1>
-          </div>
+          <div class="column col-md-6 col-lg-7">
+            <!-- open first column (used for image) -->
 
-          <div id="work">
-            <div>
-              <!-- open first column (used for image) -->
+            <picture>
+              <source srcset="img/Project-1-jpeg.jpg" media="(max-width:800px)">
+              <img src="img/Project-1-jpeg.jpg" alt="Img">
+            </picture>
 
-              <picture>
-                <source srcset="img/Project-1-jpeg.jpg" media="(max-width:800px)">
-                <img src="img/Project-1-jpeg.jpg" alt="Img">
-              </picture>
-
-
-            </div><!-- end first column -->
-            <div>
-              <!-- open second column (used for text) -->
+          </div><!-- end first column -->
+          <div>
+            <!-- open second column (used for text) -->
+            <div class="column col-md-6 col-lg-5">
               <h3>Review App</h3><!-- heading for the project -->
               <p>
                 <!-- open paragraph -->
@@ -63,6 +69,36 @@
               <a href="">Read more</a><!-- button or link label -->
             </div>
           </div>
+        </div>
+
+        <div>
+          <div class="row">
+            <div class="column col-md-6 col-lg-7">
+              <!-- open first column (used for image) -->
+
+              <picture>
+                <source srcset="img/Project-1-jpeg.jpg" media="(max-width:800px)">
+                <img src="img/Project-1-jpeg.jpg" alt="Img">
+              </picture>
+
+            </div><!-- end first column -->
+            <div>
+              <!-- open second column (used for text) -->
+              <div class="column col-md-6 col-lg-5">
+                <h3>local basketball app</h3><!-- heading for the project -->
+                <p>
+                  <!-- open paragraph -->
+                  Need an app that lets you review and rate places you visit? This app is the perfect fit for you!
+                </p><!-- end paragraph -->
+                <p>
+                  <!-- open paragraph -->
+                  skills used in this project:Adobe XD and Invision
+                </p><!-- end paragraph -->
+                <a href="">Read more</a><!-- button or link label -->
+              </div>
+            </div>
+          </div>
+
         </div>
       </div><!-- end second column -->
     </div><!-- end row that holds (2) columns for project -->
