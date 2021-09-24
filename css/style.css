@@ -36,10 +36,6 @@ nav>ul>li>a {
   color: #ffffff;
 }
 
-main {
-  padding-top: 200px;
-}
-
 /* text styling */
 body {
   background-color: #ffffff;
@@ -194,6 +190,7 @@ Medium devices (640px and larger)
     margin: 0 0;
     border-bottom: 3px solid #4a4a4a;
     text-align: unset;
+    top: 0;
 }
 
   nav {
@@ -218,10 +215,11 @@ Medium devices (640px and larger)
     color: #ffffff;
   }
 
-  main {
-    padding-top: 0;
-  }
 
+  main {
+    padding-top: 200px;
+  }
+  
   #hero {
     background-color: #F2E6B1;
     padding-top: 200px;
@@ -342,7 +340,7 @@ a:active {
 
 /* Layout styling */
 .container {
-  padding: 0 15px;
+  padding: 0 25px;
 }
 
 .row::after {
