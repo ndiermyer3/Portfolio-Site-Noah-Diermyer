@@ -1,124 +1,111 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <title>"Portfolio Noah Diermyer"</title>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <a href="index.html">
-        <picture>
-          <source srcset="img/logo.png" media="(max-width:200px)">
-          <img src="img/logo.png" alt="Logo" class="logo">
-        </picture>
-      </a>
-      <nav>
-        <ul class="navigation">
+  <head>
+    <meta charset="utf-8">
+    <title>Noah Diermyer Portfolio Home</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--cdn links-->
+    <script src="https://kit.fontawesome.com/e6aa32bfe8.js" crossorigin="anonymous"></script>
+    <!--responsive scaling-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  
+  <body id="home">
+    <header class="banner" id="header">
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <a class="logo" href="index.html">N.W.D</a>
+          <nav>
+            <ul>
               <li><a href="index.html">Work</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="javascript:void(0);" class="menuicon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
             </ul>
           </nav>
-    </div>
-   </header>
-
+        </div>
+      </div>
+    </header>
+  
   <main>
-    <div>
-      <!-- open row that holds (2) columns for project -->
-      <div id="hero">
+    <!--hero-->
+    <div class="banner" id="welcome">
       <div class="container">
-      <div class="row">
-        <h1>
-          Hello, my name is Noah Diermyer.
-          <span>
-            I'm a modern and up to date UI/UX designer who loves to learn. Being a Designer is my passion. I hope you enjoy my work.
-          </span>
-        </h1>
+        <h1>Hello, my name is Noah</h1>
+        <span>I'm a UI/UX out of Cleveland <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+        </head>
+        <body>
+          
+        </body>
+        </html>
+       </span>
       </div>
     </div>
-    </div>
 
-    <div id="work">
-      <div>
-        <h2>My work</h2>
-        <div class="row">
-          <div class="column col-md-6 col-lg-7">
-            <!-- open first column (used for image) -->
-
-            <picture>
-              <source srcset="img/project-1-jpeg.jpg" media="(max-width:800px)">
-              <img src="img/project-1-jpeg.jpg" alt="Img">
-            </picture>
-            
-          </div><!-- end first column -->
-          <div>
-            <!-- open second column (used for text) -->
-            <div class="column col-md-6 col-lg-5">
-              <h3>Review App</h3><!-- heading for the project -->
-              <p>
-                <!-- open paragraph -->
-                Need an app that lets you review and rate places you visit? This app is the perfect fit for you!
-              </p><!-- end paragraph -->
-              <p>
-                <!-- open paragraph -->
-                skills used in this project:Adobe XD and Invision
-              </p><!-- end paragraph -->
-              <a href="">Read more</a><!-- button or link label -->
-            </div>
-          </div>
+    <!--projects-->
+    <div class="container">
+      <!--project 1-->
+      <div class="row">
+        <div class="subrow">
+          <h2 class="centered">My work</h2>
         </div>
-
-        <div>
-          <div class="row">
-            <div class="column col-md-6 col-lg-7">
-              <!-- open first column (used for image) -->
-
-              <picture>
-                <source srcset="img/project-1-jpeg.jpg" media="(max-width:800px)">
-                <img src="img/project-1-jpeg.jpg" alt="Img">
-              </picture>
-
-            </div><!-- end first column -->
-            <div>
-              <!-- open second column (used for text) -->
-              <div class="column col-md-6 col-lg-5">
-                <h3>local basketball app</h3><!-- heading for the project -->
-                <p>
-                  <!-- open paragraph -->
-                  Need an app that lets you review and rate places you visit? This app is the perfect fit for you!
-                </p><!-- end paragraph -->
-                <p>
-                  <!-- open paragraph -->
-                  skills used in this project:Adobe XD and Invision
-                </p><!-- end paragraph -->
-                <a href="">Read more</a><!-- button or link label -->
-              </div>
-            </div>
+        <div class="column col-md-6 col-lg-4">
+          <picture>
+            <source srcset="img/project-1-jpeg.jpg" media="(max-width:200px)">
+            <img src="img/project-1-jpeg.jpg" alt="Logo" class="logo">
+          </picture>
           </div>
-
+        <div class="column col-md-6 col-lg-2">
+          <h4>Review App</h4>
+          <p>need an app that lets you read and write reviews? this app would be the perfect fit.</p>
+          <a href="review-app.html" class="button">view project</a>
         </div>
-      </div><!-- end second column -->
-    </div><!-- end row that holds (2) columns for project -->
+      </div>
+
+      <!--project 2-->
+      <div class="row">
+        <div class="subrow">
+        </div>
+        <div class="column col-md-6 col-lg-4">
+          <picture>
+            <source srcset="img/project-1-jpeg.jpg" media="(max-width:200px)">
+            <img src="img/project-1-jpeg.jpg" alt="Logo" class="logo">
+          </picture>
+          </div>
+        <div class="column col-md-6 col-lg-2">
+          <h4>Review App</h4>
+          <p>need an app that lets you read and write reviews? this app would be the perfect fit.</p>
+          <a href="review-app.html" class="button">view project</a>
+        </div>
+      </div>
     </div>
   </main>
 
-  <footer id="contact">
+  <footer id="contact" class="banner">
     <div class="container">
       <h2>Get in Touch</h2>
-      <p>
-        like my work? Please get in touch. Call: (440) 281-5900. Would you like to send me an email?
-      </p>
-      <div>
-        <a href="button">Email me</a>
+      <p>You can contact me with professional questions, comments, or offers at ndiermyer3@gmail.com</p>
+      <div class="subrow">
+        <a href="mailto:ndiermyer3@gmail.com" class="button">email me</a>
+      </div>
+      <div style="clear:both; display:table">
       </div>
     </div>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
-</body>
 
+</body>
 </html>
+
+
+

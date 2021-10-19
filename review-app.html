@@ -1,118 +1,344 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <title>"Portfolio Noah Diermyer"</title>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Noah Diermyer Portfolio Home</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--cdn links-->
+    <script src="https://kit.fontawesome.com/e6aa32bfe8.js" crossorigin="anonymous"></script>
+    <!--responsive scaling-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
-<body>
-  <header>
-    <div class="container">
-      <a href="index.html">
-        <picture>
-          <source srcset="img/logo.png" media="(max-width:200px)">
-          <img src="img/logo.png" alt="Logo" class="logo">
-        </picture>
-      </a>
-      <nav>
-        <ul class="navigation">
+  <body id="home">
+    <header class="banner" id="header">
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <a class="logo" href="index.html">N.W.D</a>
+          <nav>
+            <ul>
               <li><a href="index.html">Work</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="javascript:void(0);" class="menuicon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
             </ul>
           </nav>
-    </div>
-   </header>
+        </div>
+      </div>
+    </header>
 
-  <main>
-    <div>
-      <h1>Review App</h1>
-      <picture>
-        <img src="img/project-1-jpeg.jpg" alt="Image">
-      </picture>
-      <p>
-        Have you ever surfed the web trying to find the best places to eat, play, or have fun? There are many reviews out there, so I wanted to fix this and put them all in an app where users can search places and be able to send the reviews to
-        friends and family. Users can also make their own reviews and comments about anyplace. On this app users can find reviews to anyplace they wish and share them with anyone to insure they pick the right place to hangout, eat, and more.
-      </p>
-    </div>
 
-    <div>
-      <h1>My Process</h1>
-      <picture>
-        <img src="img/competitor-research.png" alt="Image">
-      </picture>
-      <h2>Competitor Research</h2>
-      <p>
-        I chose two competitor apps to research and review. The two competitor apps are TripAdvisor and Yelp. After reviewing both apps I began to see what worked for them and noted to myself the things that didn't go good. Once I settled what works
-        for them and what didn't, I started to create and design.
-      </p>
-    </div>
 
-    <div>
-      <picture>
-        <img src="img/low-fidelity.png" alt="Image">
-      </picture>
-      <h2>Low-Fidelity Wireframes</h2>
-      <p>
-        After doing hours of competitive research on bigger competition, I begin to create my Low-Fidelity wireframes according to the guidelines from apple and android. Following the guidelines carefully, I designed my Low-Fidelity wireframes
-      </p>
-    </div>
 
-    <div>
-      <picture>
-        <img src="img/mid-fidelity.png" alt="Image">
-      </picture>
-      <h2>Mid-Fidelity Wireframes</h2>
-      <p>
-        After putting my thoughts on paper, I began to put my wireframes on the design software Adobe XD so I can start building the perfect app.
-      </p>
-    </div>
 
-    <div>
-      <picture>
-        <img src="img/gestures.png" alt="Image">
-      </picture>
-      <h2>Haptic Feedback and Gestures</h2>
-      <p>
-        Haptic feedback gives the user positive or negative feedback, so the user can navigate through the app easier and feel more connected with the app. it makes it an overall better experience for the user.
-      </p>
-    </div>
+    <main>
+      <div class="container">
+        <!--hero-->
+        <div class="row">
+          <h1>5ive Star</h1>
+          <div class="subsection">
+            <div class="col-md-6" id="aboutchanges">
+              <h4>Case Study by Noah Diermyer</h4>
+              <p>Role: UI/UX Design, Prototyping, and User Testing</p>
+              <p>Project scale: 20 days</p>
+              <p>Produced for Career Foundry</p>
+            </div>
+            <div class="col-md-6">
+              <h4>About 5ive Star</h4>
+              <p>5ive Star is a web-responsive review app</p>
+              <ul>
+                <li>Find reviews on your favorite places.</li>
+                <li>Write reviews</li>
+                <li>Send reviews to friends and family.</li>
+              </ul>
+              <p>This makes it easy to find reviews</p>
+            </div>
+          </div>
+        </div>
+        <div style="clear:both;"></div>
+  
+        <!--branding section-->
+        <div class="section">
+  
+          <!--title-->
+          <div class="">
+            <img src="img/competitor-research.png" alt="Image">
+              <rect width="200" height="17" fill="#16585A" fill-rule="evenodd" />
+            <h2>Competitor Research</h2>
+            <p>Competitor Research starts with looking at the best companies.
+              <br>Find what works and doesn't work for the succcessful companies.
+            </p>
+          </div>
+  
+          <!--row color palette-->
+          <div class="row">
+            <!--column 1-->
+            <div class="col-md-1 col-lg-2">
+              <h3>Color Palette</h3>
+              <p>blue and orange
+                <br>show trust and loyality 
+              </p>
+            </div>
+            <!--column 2-->
+            <div class="col-md-1 col-lg-4">
+              <div class="subrow">
+                <div class="col-3">
+                  <div class="color-circle" style="background-color:#2676f8">
+                    <p class="colortext">Baby Blue
+                      <br>#2676F8
+                    </p>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="color-circle" style="background-color:#e57d46">
+                    <p class="colortext" style="color:white">Orange
+                      <br>#E57D46
+                    </p>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="color-circle" style="background-color:#000000">
+                    <p class="colortext">White
+                      <br>#000000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="subrow">
+                <div class="col-sm-3 col-md-5">
+                  <div class="color-circle" style="border: 1px solid black">
+                    <p class="colortext">White
+                      <br>#FFFFFF
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!--user experience section-->
+        <div class="section">
+          <!--column 1-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="200" height="17" viewBox="0 0 200 17">
+            <rect width="200" height="17" fill="#aa6c2b" fill-rule="evenodd" />
+          </svg>
+          <h2>User Experience</h2>
+          <p>The project brief contained user stories.
+            <br>Those stories then helped guide initial design solutions.
+          </p>
+          <!--column 2-->
+          <div style="clear:both;"></div>
+  
+          <div class="flexrow">
+            <div class="flexcol" style="background-color: #aa6c2b">
+              <h4>Problems</h4>
+              <div class="stretchbox">
+                <p>“I would add some color to these activity options and make them larger. There’s a ton of white space and I think you could use it to make the screen look really fun and interactive.”</p>
+                <p>“I like when apps like this have apple or google sign in.”</p>
+                <p>“I want to be able to send reviews to my family.”</p>
+              </div>
+            </div>
+            <div class="flexcol" style="background-color: #c9aa88">
+              <h4>Solutions</h4>
+              <div class="stretchbox">
+                <p> Add color to all screens and pages to keep the users happy. Also add more to each page to take away too much white space.</p>
+                <p>Add Apple and Google pay for a fast and easy sighn up/sign in</p>
+                <p>Add the feature to send or recieve reviews</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div style="clear:both;"></div>
+  
+        <!-- section-->
+        <div class="section">
+          <!--title-->
+          <div class="subrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="17" viewBox="0 0 200 17">
+              <rect width="200" height="17" fill="#16585A" fill-rule="evenodd" />
+            </svg>
+            <h2>wireframes</h2>
+            <p>From the user testing and user stories I began to make the wireframes</p>
+          </div>
+          <div class="">
+            <picture>
+              <source srcset="img/low-fidelity.png" media="(max-width:767px)">
+              <img src="img/low-fidelity.png" alt="user flow diagram">
+            </picture>
+          </div>
+        </div>
+  
+        <div style="clear:both;"></div>
+  
+        <!--testing section-->
+        <div class="section">
+          <!--title-->
+          <div class="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="17" viewBox="0 0 200 17">
+              <rect width="200" height="17" fill="#aa6c2b" fill-rule="evenodd" />
+            </svg>
+            <h2>Development and Testing</h2>
+            <p>Now that the app structure is outlined, we did the sketches,</p>
+            <p>and then wirefrmaes.</p>
+            <p>After that we used the wireframes for the user testing.</p>
+          </div>
+          <!--user testing-->
+          <div class="subsection">
+            <picture id="changesprototype">
+              <source srcset="img/mid-fidelity.png" media="(max-width:640px)">
+              <img src="img/mid-fidelity.png" alt="prototype of an onboarding screen">
+            </picture>
+          </div>
+          <!--testing results-->
+          <div class="subrow">
+            <h3 class="centered">User Testing Results</h3>
+          </div>
+          <!--column 1-->
+          <div class="grid4">
+            <div class="uxresults1 gray">
+              <h4 class="centered">Positive Responses</h4>
+              <ul>
+                <li>Very user Friendly</li>
+                <li>Easy to use and very trendy</li>
+                <li>Love the onboarding</li>
+                <li>icons are in comfortable spots </li>
+              </ul>
+            </div>
+            <div class="uxresults2">
+              <blockquote>
+                "Flows very smoothly"
+              </blockquote>
+            </div>
+            <div class="uxresults3">
+              <blockquote>
+                "So straight Forward and easy to use"
+              </blockquote>
+            </div>
+            <div class="uxresults4 gray">
+              <h4 class="centered">Pain Points</h4>
+              <ul>
+                <li></li>
+                <li>too much whitespace</li>
+                <li>the reviews need to stand out more</li>
+                <li>very busy in some areas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <!--ui section-->
+        <div class="section">
+          <!--gestures section-->
+          <div class="row">
+            <h3>wireframes</h3>
+            <p>Gestures</p>
+            <div class="row">
+              <picture>
+                <source srcset="img/gestures.png" media="(max-width:767px)">
+                <img src="img/gestures.png" alt="series of onboarding screens in sequence">
+              </picture>
+            </div>
+          </div>
+        </div>
+  
+        <!--granular control section-->
+        <div class="section">
+          <h3>Mid-Fidelity Wireframes</h3>
+          <p>Nested information lets you decide how much detail to see on screen.</p>
+          <div class="row">
+            <picture>
+              <source srcset="img/mid-fidelity.png" media="(max-width:767px)">
+              <img src="img/mid-fidelity.png" alt="3 screens showing expenses in front of a yellow arrow">
+            </picture>
+          </div>
+        </div>
+  
+        <!--dashboard flow section-->
+        <div class="section">
+          <h3>High-Fidelity Wireframes</h3>
+          <p>The final design after testing and redesigning.</p>
+          <div class="row">
+            <picture>
+              <source srcset="img/high-fidelity-ios-android.png" media="(max-width:767px)">
+              <img src="img/high-fidelity-ios-android.png" alt="series of screens depicting states of monetary accounts">
+            </picture>
+          </div>
+        </div>
+  
+        <div style="clear:both;"></div>
+  
+        <!--conclusion-->
+        <div class="section">
+          <div class="col-md-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="17" viewBox="0 0 200 17">
+              <rect width="200" height="17" fill="#aa6c2b" fill-rule="evenodd" />
+            </svg>
+            <h2>Conclusion</h2>
+            <p>User friendly is key for the 5ive Star app.</p>
+            <p>After many hours of testing the users, we wanted an app that is easy to use and understand.</p>
+            <ul>
+              <li>simple</li>
+              <li>see & write reviews</li>
+            </ul>
+            <p>we want out users to be:</p>
+            <ul>
+              <li>comfortable</li>
+              <li>happy</li>
+              <li>succcessful</li>
+            </ul>
+            <p>In the future we want more users to read, write, and share reviews seemlessly in the comfort of their own phone.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <picture id="fallin-coins-invert">
+              <source srcset="img/changes/fallin_coins_invert@0.5x.png" media="(max-width:767px)">
+              <img src="img/changes/fallin_coins_invert.png" alt="">
+            </picture>
+          </div>
+        </div>
+  
+        <div class="section"> </div>
+      </div>
+    </main>
 
-    <div>
-      <picture>
-        <img src="img/user-research.png" alt="Image">
-      </picture>
-      <h2>User Testing</h2>
-      <p>
-        Once I got my design onto the software, I began to test the app to all the users and see what they had to say about it. once I got the feedback back I began to make changes to make the app better and smoother. lastly, I tested it one more
-        time to make sure the app is ready to go
-      </p>
-    </div>
+      <footer id="contact" class="banner">
+        <div class="container">
+          <h2>Get in Touch</h2>
+          <p>You can contact me with professional questions, comments, or offers at ndiermyer3@gmail.com</p>
+          <div class="subrow">
+            <a href="mailto:ndiermyer3@gmail.com" class="button">email me</a>
+          </div>
+          <div style="clear:both; display:table">
+          </div>
+        </div>
+      </footer>
+    
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+    
+    </body>
+    </html>
+    
+    
+  
 
-    <div>
-      <picture>
-        <img src="img/high-fidelity-ios-android.png" alt="Image">
-      </picture>
-      <h2>High-Fidelity Wireframes</h2>
-      <p>
-        In the final design I kept it straight to the point and what the users want. having a detailed log in helps with having a more personal app for the users.
-      </p>
-    </div>
-  </main>
 
-  <footer id="contact">
-    <h2>Get in Touch</h2>
-    <p>
-      like my work? Please get in touch. Call: (440) 281-5900. Would you like to send me an email?
-    </p>
-    <div>
-      <a href="">Email me</a>
-    </div>
-  </footer>
 
-  <script src="js/scripts.js"></script>
-</body>
 
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
