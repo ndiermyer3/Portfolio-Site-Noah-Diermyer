@@ -208,7 +208,7 @@ nav > ul {
 .banner {
   color: #c9aa88;
   background-color: #ebd0b4;
-}  
+}
 
 p {color: black;}
 
@@ -349,210 +349,210 @@ main {
       width: auto;
       float: right;
     }
-  
+
     nav > ul > li {
       display: inline-block;
       padding: 10px 24px 0;
     }
-  
+
     .navtoggle li:not(:last-child) {
-      display: inline-block;
+  display: inline-block;
     }
-  
+
     .navtoggle li:last-child {
       display: none;
     }
-  
+
     main {
       padding-top: 78px;
     }
-  
+
     #about h4 {
       margin-top: 0;
     }
-  
+
     #aboutchanges {
       width: 45%;
       margin-right: 5%;
     }
-  
+
     .shifttext {
       text-align: center;
     }
-  
+
     .container {
       padding: 0 20px;
     }
-  
+
     [class*="col-"] {
       float: left;
       padding-right: 10px;
       padding-left: 10px;
     }
-  
+
     .col-md-1 {
       width: 100%;
       padding-right: 0;
       padding-left: 0;
     }
-  
+
     .col-md-2 {
       width: 33%;
     }
-  
+
     .col-md-4 {
       width: 67%;
     }
-  
+
     .flexcol {
       width: 48%;
     }
-  
+
     .col-md-6,
     .mealsconclusion {
       width: 50%;
     }
-  
+
     .col-md-5 {
       width: 20%;
     }
-  
+
     .col-right {
       float: right;
     }
-  
+
     .grid4 {
       display: grid;
       grid-template-columns: 48% 48%;
       grid-gap: 4%;
     }
-  
+
     .uxresults1 {
       grid-area: 1 / 1 / span 2 / 1;
     }
-  
+
     .uxresults2 {
       grid-area: 1 / 2 / 1 / 2;
     }
-  
+
     .uxresults3 {
       grid-area: 3 / 1 / 3 / 1;
     }
-  
+
     .uxresults4 {
       grid-area: 2 / 2 / span 2 / 2;
     }
-  
+
     .sifinal2 {
       display: grid;
       grid-template-columns: 50% 50%;
     }
-  
+
     .logo {
       padding-top: 24px;
       color: #c9aa88;
       font-size: 1.5em;
     }
-  
+
   }
-  
+
   @media (max-width: 1023px) {
     #robert,
     #alyssa {
       margin-top: 24px;
     }
   }
-  
+
   @media only screen and (min-width: 1024px) {
     .container {
       padding: 0 100px;
     }
-  
+
     [class*="col-lg-"] {
       float: left;
       padding-left: 20px;
       padding-right: 20px;
     }
-  
+
     .col-lg-6 {
       width: 50%;
     }
-  
+
     .col-lg-4 {
       width: 67%;
     }
-  
+
     .col-lg-2 {
       width: 33%;
     }
-  
+
     .hide-2 {
       margin-left: 33%;
     }
-  
+
     #sihero {
       text-align: left;
     }
-  
+
     .sifinal3 {
       display: grid;
       grid-template-columns: 20% 20% 20% 20% 20%;
     }
-  
+
     .sistructure {
       display: grid;
       grid-template-columns: 48% 48%;
       grid-column-gap: 2%;
     }
-  
+
     .sis1 {
       grid-area: 1/1;
     }
-  
+
     .sis2 {
       grid-area: 2/1;
     }
-  
+
     .sis3 {
       grid-area: 3/1;
     }
-  
+
     .sis4 {
       grid-area: 4/1;
     }
-  
+
     .sis5 {
       grid-area: 1/2;
     }
-  
+
     .sis6 {
       grid-area: 2/2;
     }
-  
+
     .sis7 {
       grid-area: 3/2;
     }
-  
+
     .sis8 {
       grid-area: 4/2;
     }
-  
+
     .offtype {
       margin-top: 8px;
     }
-  
+
     #about h1,
     #about h2 {
       text-align: left;
       padding-left: 35%;
     }
-  
+
     #robert {
       position: relative;
       top: 16px;
     }
   }
-  
+
   @media only screen and (min-width: 1440px) {
     .container {
       max-width: 1400px;
